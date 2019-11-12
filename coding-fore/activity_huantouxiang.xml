@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#FAFFC5"
+        >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="62dp"
+            android:background="#BBBBBB" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+
+            android:background="@null"
+            android:src="@drawable/return11"
+            />
+
+        <TextView
+            android:id="@+id/mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更 换 头 像"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textSize="32dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/round" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="550dp"
+            android:background="#BBBBBB" />
+
+        <Button
+            android:id="@+id/xiangce"
+            android:layout_width="254dp"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="590dp"
+            android:background="#BCD5C5"
+            android:text="从相册中选择"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/paishe"
+            android:layout_width="254dp"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="651dp"
+            android:background="#BCD5C5"
+            android:text="拍摄"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
