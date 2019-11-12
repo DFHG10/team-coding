@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lianxiguanliyuan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#FAFFC5"
+        >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="62dp"
+            android:background="#BBBBBB" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:background="@null"
+            android:src="@drawable/return11"
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:text="     应用体验反馈"
+            android:gravity="center_vertical"
+            android:layout_marginTop="62dp"
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:layout_marginTop="162dp"
+            android:gravity="center_vertical"
+            android:text="     关于商家反馈"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/mine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系管理员"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:textSize="32dp"
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="162dp"
+            android:background="#BBBBBB" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:layout_marginTop="262dp"
+            android:background="#BBBBBB" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="327dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-22dp"
+            android:src="@drawable/callhuman" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
