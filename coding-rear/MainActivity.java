@@ -1,4 +1,4 @@
-package com.example.test2;
+package com.example.FZU;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,10 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import com.example.test2.R;
-
-
 public class MainActivity extends AppCompatActivity {
     private Button btn;
     private Button btn2;
@@ -22,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //跳转到Textview演示界面
-                Intent intent = new Intent(MainActivity.this,regActivity.class);
+                //跳转到register演示界面
+                Intent intent = new Intent(MainActivity.this,register.class);
                 startActivity(intent);
 
             }
@@ -34,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //跳转到forget演示界面
-                Intent intent = new Intent(MainActivity.this,mima.class);
+                Intent intent = new Intent(MainActivity.this,forgetpassword.class);
                 startActivity(intent);
 
             }
@@ -44,8 +40,7 @@ public class MainActivity extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this,zhuye.class);
+                Intent intent = new Intent(MainActivity.this,fragment.class);
                 startActivity(intent);
 
             }
