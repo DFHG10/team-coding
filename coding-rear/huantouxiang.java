@@ -1,4 +1,4 @@
-package com.example.test2;
+package com.example.FZU;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,4 +11,5 @@ public class huantouxiang extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_huantouxiang);
     }
+
 }
